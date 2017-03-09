@@ -1,0 +1,5 @@
+
+uglifyjs v2.js vr.js zepto.min.js then.js muse-ui.js aaa.js  --bare-returns -o v_aaa_bundle.js
+
+
+

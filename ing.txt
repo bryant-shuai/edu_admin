@@ -1,0 +1,86 @@
+上级学习计划 
+自定学习计划
+
+
+
+
+
+
+
+过关
+
+  职业通道
+
+  岗位测评
+
+
+
+
+
+
+
+商学院 三个搜索模式（按职位 技能 行业）
+  行业：
+    专家库
+
+
+
+
+企业大学课程 
+
+
+个人 手机 qq 邮箱 岗位
+
+企业 通知 制度
+
+新员工入职系列
+
+企业团建
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10791  \treact-native run-android
+10792  rm /Users/song/rn/e-video2/evd/node_modules/react-native/ReactAndroid/build/downloads/boost_1_57_0.zip
+10793  \treact-native run-android
+10794  \treact-native run-android --stacktrace
+10795  ./gradlew installDebug --stacktrace --info
+10796  cd android
+10797  ./gradlew installDebug --stacktrace --info
+10798* /Users/song/lib/ndk/ndk-build -v
+10799  ./gradlew installDebug --stacktrace --info
+10800* cd ~/rn/e-video2/evd/android
+10801* ./gradlew evd:dependencies
+10802* cd ../node_modules/react-native
+10803* cd android
+10804  cd android_demo_app_install
+10805  ./gradlew installDebug --stacktrace --info
+
+
+
+
+
+
+
+
+
+
+
+
+

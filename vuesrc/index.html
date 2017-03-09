@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>后台管理</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+      [v-cloak] {
+        display: none;
+      }
+
+      @font-face {
+        font-family: 'Material Icons';
+        font-style: normal;
+        font-weight: 400;
+        src: url(/public/materialicons/MaterialIcons-Regular.eot); /* For IE6-8 */
+        src: local('Material Icons'),
+             local('MaterialIcons-Regular'),
+             url(/public/materialiconsMaterialIcons-Regular.woff2) format('woff2'),
+             url(/public/materialiconsMaterialIcons-Regular.woff) format('woff'),
+             url(/public/materialiconsMaterialIcons-Regular.ttf) format('truetype');
+      }
+
+      .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+      }
+
+
+      ul.sidebar__items li a span{
+        color:#FFF;
+      }
+      
+      .evd-view {
+        /*transition: all 0.5s ease;*/
+      }
+
+      .fade-enter-active, .fade-leave-active {
+        transition: opacity 0.5s
+      }
+      .fade-enter, .fade-leave-active {
+        /*opacity: 0;*/
+        opacity: 0;
+        transform: translate3d(120px, 0, 0)  0.5s;
+      }
+
+      /* 可以设置不同的进入和离开动画 */
+      /* 设置持续时间和动画函数 */
+      .slide-fade-enter-active {
+        transition: all .4s ease;
+      }
+      .slide-fade-leave-active {
+        /*transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);*/
+        transition: all .3s ease;
+      }
+      .slide-fade-enter, .slide-fade-leave-active {
+        transform: translateX(100px);
+        opacity: 0;
+      }
+    </style>
+    <link href="/public/materialicons/mt.css" rel="stylesheet">
+  </head>
+  <script type="text/javascript">
+  var $$ = {}
+  </script>
+  <script src="/dist/v2.js"></script>
+  <script src="/dist/vr.js"></script>
+  <script src="/dist/then.js"></script>
+  <body>
+    <div id="app"></div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
